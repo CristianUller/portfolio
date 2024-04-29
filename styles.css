@@ -1,0 +1,269 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 67%;
+    font-family: candara;
+    background-color:gray;
+}
+header{
+    width: 100%;
+    height: 7em;
+   
+    display: flex;  
+    align-items: center    ;
+    justify-content: space-evenly;
+    background-color: bisque;
+    bottom: 2px;
+    color:  rgba(189, 88, 30, 0.849) ;
+
+}
+header img{
+    height: 110%;
+   
+}
+
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.7em;
+}
+header button{
+    padding: 10px;
+    background-color: rgba(189, 88, 30, 0.849) ;
+    border: 0; 
+    color: rgb(17, 14, 14);
+    font-family: candara;
+    border-radius: 5px;
+    box-shadow:0 0 0.9em rgba(189,68,30,0.720);
+}
+h1{
+    font-size: 2pc;
+    text-shadow:0 0 0.2em rgba(0, 0, 0, 0.72);
+    
+}
+
+.apresentacao{
+    width: 98%;
+    height: 60vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    
+
+}
+
+.apresentacao article{
+    width: 60%;
+    height: 100%;
+    border: 2px rgb(0, 0, 0) solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.foto{
+    width: 30%;
+    height: 70%;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+.apresentacao article p{
+    margin: 0;
+    font-size: 1.3em;
+    margin-left: 30px;
+
+}
+
+.apresentacao article h1{
+    margin: 0;
+    font-size: 4.2em;
+    color: rgba(189, 88, 30, 0.849);
+    margin-left: 30px;
+
+}
+
+.apresentacao article strong{
+    margin: 0;
+    font-size: 2.0em;
+    margin-left: 30px;
+}
+
+.social{
+    width: 35%;
+    border: 1px rgb(5, 5, 5) solid;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgba(189, 88, 30, 0.849) ;
+    box-shadow: 1px rgb(59, 55, 55);
+    font-family: arial;
+    font-size: 1vw;
+    border-radius: 10px;
+    margin-top: 2px;
+    text-shadow:0 0 0.2em rgba(0, 0, 0, 0.72)
+    
+}
+
+.social a{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 1px;
+    margin-bottom: 0px;
+    text-shadow:0 0 0.2em rgba(0, 0, 0, 0.72)
+
+}
+
+.curriculo{
+    width: 35%;
+    border: 1px rgb(5, 5, 5) solid;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgba(189, 88, 30, 0.849) ;
+    box-shadow: 3px rgb(59, 55, 55);
+    font-family: arial;
+    font-size: 1vw;
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 60px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 2.5vw;
+    font: arial;
+    font-style: italic;
+    
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0,0,0.2em rgba(0, 0, 0, 0.849);
+    text-shadow:0 0 0.2em rgba(0, 0, 0, 0.72);
+    
+
+}
+
+
+
+.botoes{
+    width: 35%;
+    border: 1px rgb(5, 5, 5) solid;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgba(189, 88, 30, 0.849) ;
+    box-shadow: 0,0,0.2 rgb(59, 55, 55);
+    font-family: arial;
+    font-size: 1vw;
+    border-radius: 10px;
+    margin-top: 10px;
+      
+}
+
+.botoes button{
+    padding: 15px;
+    background-color: bisque;
+    border: 0;
+    color: black;
+    box-shadow: 0,0,0.2em rgba(0, 0, 0, 0.849);
+    margin-left: 30px;
+}
+
+.foto{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: orange;
+    border-radius: 50%;
+    box-shadow:0 0 8em rgba(255, 208, 0, 900);
+    border: 0px;
+    
+}
+
+.foto .fundo img{
+
+    width: 92%;
+    border-bottom-left-radius:  202px;
+    border-bottom-right-radius: 210px;
+    padding-left: 30px;
+}
+
+.resto{
+    width: 58.8%;
+    height: 100%;
+    border: 2px rgb(0, 0, 0) solid ;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin: 0;
+    margin-left: 162px;
+    font-size: 1.4vw;
+    font-family: arial;
+    font-weight: bold;
+    background-color:gray
+    
+}
+
+.resto section{
+    width: 90%;
+    height: 100%;
+    border: 2px black solid;
+    
+
+    bottom: 0px;
+    margin: 50px;
+    margin-right: 80px;
+    
+}
+.estrela{
+    
+    
+    width:50%;
+    height: 50%;
+    border: 2px black solid ;
+   
+
+    margin: 0;
+    margin-right: 80px;
+    border-radius: 50%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 0 2em rgb(104, 29, 6, 14);
+    
+}
+
+.estrela img{
+
+    width:100%;
+    height: 110%;
+    
+
+}
+article{
+    width: 80%;
+    height: 100%;
+    border: 60px rgba(143, 67, 22, 0.849) solid ;
+    
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    margin: 0;
+    margin-left: 97px;
+    font: arial;
+    font-weight: bold;
+    font-size: 2v;
+    background-color:gray;
+}
+
+
+:root{
+    background-image: url(Assets/Img/Papel-Parede-Tematicos-CafeArte.png);
+} 
