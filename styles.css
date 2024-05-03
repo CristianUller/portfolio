@@ -184,11 +184,13 @@ h1{
 }
 
 .foto .fundo img{
-
+    
     width: 92%;
-    border-bottom-left-radius:  202px;
+    height: 92%;
+    border-bottom-left-radius:  194px;
     border-bottom-right-radius: 210px;
     padding-left: 30px;
+    
 }
 
 .resto{
@@ -273,5 +275,6 @@ a{
 } 
 
 audio{
-    background-color:rgba(189, 88, 30, 0.849) ;
+    color:rgba(189, 88, 30, 0.849) ;
+    
 }
