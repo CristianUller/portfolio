@@ -171,15 +171,16 @@ h1{
 }
 
 .foto{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     display: flex;
     align-items: end;
     justify-content: center;
     background-color: orange;
     border-radius: 50%;
     box-shadow:0 0 8em rgba(255, 208, 0, 900);
-    border: 0px;
+    border: 0px;    
+    margin-right: 90px;
     
 }
 
@@ -265,7 +266,7 @@ article{
     background-color:gray;
 }
 
-a{
+.nav a{
     color:rgba(189, 88, 30, 0.849) ;
 }
 
@@ -279,3 +280,60 @@ audio{
     
 }
 
+.for a{
+
+  
+    padding-bottom: 0vw;
+    margin: 0;
+    margin-left: 97px;
+    margin-bottom: 1vw;
+    font: arial;
+    font-weight: bold;
+    font-size: 2v;
+    background-color:gray;
+    background-color:rgba(189, 88, 30, 0.849) ;
+    border: black solid;    
+    color: black;
+    
+    
+}
+
+.for{
+    width: 40%;
+    height: 100%;
+    border: 2px rgb(0, 0, 0) solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 0px;
+    border-top: 0px;
+    color: black;
+}
+.form{
+    width: 60%;
+    height: 100%;
+    border: 1px rgb(0, 0, 0) solid ;
+    display: flex;
+    /*padding-left: 10vb;*/
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.4vw;
+    font-family: arial;
+    font-weight: bold;
+    background-color:gray;
+    border-right: 30vb;
+    border:30px;
+    border:black solid;
+    margin: 0;
+    margin-left: 5.1%;
+    
+    
+}
+.form section{
+
+}
+.for h1{
+    padding-left: 40px;
+}
