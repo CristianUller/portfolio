@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,body{
     
     margin: 0;
@@ -391,3 +392,344 @@ form{
     cursor: help;
 
 }
+=======
+html,body{
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 67%;
+    font-family: candara;
+    background-color:burlywood;
+}
+header{
+    width: 100%;
+    height: 7em;
+   
+    display: flex;  
+    align-items: center    ;
+    justify-content: space-evenly;
+    background-color: bisque;
+    bottom: 2px;
+    color:  rgba(189, 88, 30, 0.849) ;
+
+}
+header img{
+    height: 110%;
+   
+}
+
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.7em;
+}
+header button{
+    padding: 10px;
+    background-color: rgba(189, 88, 30, 0.849) ;
+    border: 0; 
+    color: rgb(17, 14, 14);
+    font-family: candara;
+    border-radius: 5px;
+    box-shadow:0 0 0.9em rgba(189,68,30,0.720);
+}
+h1{
+    font-size: 2pc;
+    text-shadow:0 0 0.2em rgba(0, 0, 0, 0.72);
+    
+}
+
+.apresentacao{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+
+}
+
+.apresentacao article{
+    width: 60%;
+    height: 100%;
+    border: 2px rgb(0, 0, 0) solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.foto{
+    width: 60%;
+    height: 70%;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+.apresentacao article p{
+    margin: 0;
+    font-size: 1.3em;
+    margin-left: 30px;
+
+}
+
+.apresentacao article h1{
+    margin: 0;
+    font-size: 4.2em;
+    color: rgba(189, 88, 30, 0.849);
+    margin-left: 30px;
+
+}
+
+.apresentacao article strong{
+    margin: 0;
+    font-size: 2.0em;
+    margin-left: 30px;
+}
+
+.social{
+    width: 35%;
+    border: 1px rgb(5, 5, 5) solid;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgba(189, 88, 30, 0.849) ;
+    box-shadow: 1px rgb(59, 55, 55);
+    font-family: arial;
+    font-size: 1vw;
+    border-radius: 10px;
+    margin-top: 2px;
+    text-shadow:0 0 0.2em rgba(0, 0, 0, 0.72)
+    
+}
+
+.social a{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 1px;
+    margin-bottom: 0px;
+    text-shadow:0 0 0.2em rgba(0, 0, 0, 0.72)
+
+}
+
+.curriculo{
+    width: 35%;
+    border: 1px rgb(5, 5, 5) solid;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgba(189, 88, 30, 0.849) ;
+    box-shadow: 3px rgb(59, 55, 55);
+    font-family: arial;
+    font-size: 1vw;
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 60px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 2.5vw;
+    font: arial;
+    font-style: italic;
+    
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+
+
+.botoes{
+    width: 35%;
+    border: 1px rgb(5, 5, 5) solid;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgba(189, 88, 30, 0.849) ;
+    box-shadow: 0,0,0.2 rgb(59, 55, 55);
+    font-family: arial;
+    font-size: 1vw;
+    border-radius: 10px;
+    margin-top: 10px;
+      
+}
+
+.botoes button{
+    padding: 15px;
+    background-color: bisque;
+    border: 0;
+    color: black;
+    box-shadow: 0,0,0.2em rgba(0, 0, 0, 0.849);
+    margin-left: 30px;
+}
+
+.foto{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: orange;
+    border-radius: 50%;
+    box-shadow:0 0 8em rgba(255, 208, 0, 900);
+    border: 0px;    
+    margin-right: 90px;
+    
+}
+
+.foto .fundo img{
+    
+    width: 95%;
+    height: 96%;
+    border-bottom-left-radius:  194px;
+    border-bottom-right-radius: 210px;
+    padding-left: 16px;
+    
+}
+
+.resto{
+    width: 60%;
+    border: 1px rgb(0, 0, 0) solid ;
+    display: flex;
+    /*padding-left: 10vb;*/
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 1.4vw;
+    font-family: arial;
+    font-weight: bold;
+    background-color:gray;
+    border-right: 30vb;
+    border:30px;
+    border:black solid;
+    margin: 0;
+    margin-left: 5.1%;
+    
+}
+
+.resto section{
+    width: 90%;
+    height: 100%;
+    border: 1px black solid;
+    
+
+    bottom: 0px;
+   
+    
+}
+.estrela{
+    
+    
+    width:50%;
+    height: 50%;
+    border: 1px black solid ;
+   
+
+    
+    
+    border-radius: 50%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.estrela img{
+
+    width:100%;
+    height: 110%;
+    
+
+}
+article{
+    width: 80%;
+    height: 100%;
+    border: 60px rgba(143, 67, 22, 0.849) solid ;
+    
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    margin: 0;
+    margin-left: 97px;
+    font: arial;
+    font-weight: bold;
+    font-size: 2v;
+    background-color:gray;
+}
+
+.nav a{
+    color:rgba(189, 88, 30, 0.849) ;
+}
+
+
+:root{
+    background-image: url(Assets/Img/Papel-Parede-Tematicos-CafeArte.png);
+} 
+
+audio{
+    color:rgba(189, 88, 30, 0.849) ;
+    
+}
+
+.for a{
+
+  
+    padding-bottom: 0vw;
+    margin: 0;
+    margin-left: 97px;
+    margin-bottom: 1vw;
+    font: arial;
+    font-weight: bold;
+    font-size: 2v;
+    background-color:gray;
+    background-color:rgba(189, 88, 30, 0.849) ;
+    border: black solid;    
+    color: black;
+    
+    
+}
+
+.for{
+    width: 40%;
+    height: 100%;
+    border: 2px rgb(0, 0, 0) solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 0px;
+    border-top: 0px;
+    color: black;
+}
+.form{
+    width: 60%;
+    height: 100%;
+    border: 1px rgb(0, 0, 0) solid ;
+    display: flex;
+    /*padding-left: 10vb;*/
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.4vw;
+    font-family: arial;
+    font-weight: bold;
+    background-color:gray;
+    border-right: 30vb;
+    border:30px;
+    border:black solid;
+    margin: 0;
+    margin-left: 5.1%;
+    
+    
+}
+.form section{
+
+}
+.for h1{
+    padding-left: 40px;
+}
+>>>>>>> 06eba27f129ca0017213ac8a79fe89d50c580f59
