@@ -1,4 +1,5 @@
 html,body{
+    
     margin: 0;
     padding: 0;
     width: 100%;
@@ -16,6 +17,7 @@ header{
     background-color: bisque;
     bottom: 2px;
     color:  rgba(189, 88, 30, 0.849) ;
+    border: 2px black solid;
 
 }
 header img{
@@ -45,10 +47,10 @@ h1{
 }
 
 .apresentacao{
-    width: 98%;
+    width: 100%;
     height: 60vh;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items:center;
     
 
@@ -67,7 +69,7 @@ h1{
 }
 
 .foto{
-    width: 30%;
+    width: 60%;
     height: 70%;
     border: 2px rgb(0, 0, 0) solid;
 }
@@ -170,54 +172,57 @@ h1{
 }
 
 .foto{
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     display: flex;
     align-items: end;
     justify-content: center;
     background-color: orange;
     border-radius: 50%;
     box-shadow:0 0 8em rgba(255, 208, 0, 900);
-    border: 0px;
+    border: 0px;    
+    margin-right: 90px;
     
 }
 
 .foto .fundo img{
-
-    width: 92%;
-    border-bottom-left-radius:  202px;
+    
+    width: 95%;
+    height: 96%;
+    border-bottom-left-radius:  194px;
     border-bottom-right-radius: 210px;
-    padding-left: 30px;
+    padding-left: 16px;
+    
 }
 
 .resto{
-    width: 58.8%;
-    height: 100%;
-    border: 2px rgb(0, 0, 0) solid ;
+    width: 60%;
+    border: 1px rgb(0, 0, 0) solid ;
     display: flex;
-
+    /*padding-left: 10vb;*/
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 0px;
-    border-top: 0px;
-    margin: 0;
-    margin-left: 162px;
+
     font-size: 1.4vw;
     font-family: arial;
     font-weight: bold;
-    background-color:gray
+    background-color:gray;
+    border-right: 30vb;
+    border:30px;
+    border:black solid;
+    margin: 0;
+    margin-left: 5.1%;
     
 }
 
 .resto section{
     width: 90%;
     height: 100%;
-    border: 2px black solid;
+    border: 1px black solid;
     
 
     bottom: 0px;
-    margin: 50px;
-    margin-right: 80px;
+   
     
 }
 .estrela{
@@ -225,11 +230,11 @@ h1{
     
     width:50%;
     height: 50%;
-    border: 2px black solid ;
+    border: 1px black solid ;
    
 
-    margin: 0;
-    margin-right: 80px;
+    
+    
     border-radius: 50%;
     background-color: bisque;
     display: flex;
@@ -262,7 +267,127 @@ article{
     background-color:gray;
 }
 
+.nav a{
+    color:rgba(189, 88, 30, 0.849) ;
+}
+
 
 :root{
     background-image: url(Assets/Img/Papel-Parede-Tematicos-CafeArte.png);
 } 
+
+audio{
+    color:rgba(189, 88, 30, 0.849) ;
+    
+}
+
+.for a{
+    
+  
+    padding-bottom: 0vw;
+    margin: 0;
+    margin-left: 97px;
+    margin-top: 40px;
+    margin-bottom: 1vw;
+    font: arial;
+    font-weight: bold;
+    font-size: 2v;
+    background-color:gray;
+    background-color:rgba(189, 88, 30, 0.849) ;
+    border: black solid;    
+    color: black;
+    border-radius: 15px;
+    
+}
+
+.for{
+    width: 40%;
+    height: 100%;
+    border: 2px rgb(0, 0, 0) solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 0px;
+    border-top: 0px;
+    color: black;
+    
+}
+.formu{
+    width: 60%;
+    height: 100%;
+    border: 1px rgb(0, 0, 0) solid ;
+    display: flex;
+    /*padding-left: 10vb;*/
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.4vw;
+    font-family: arial;
+    font-weight: bold;
+    background-color:gray;
+    border-right: 30vb;
+    border:30px;
+    border:black solid;
+    margin: 0;
+    margin-left: 5.1%;
+    
+    
+}
+
+.formulario header{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color:gray;
+    color: black;
+}
+
+
+    
+
+}
+.for h1{
+    padding-left: 40px;
+}
+
+form{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+   
+}
+
+.formulario input{
+    width: 18vw;
+    border-color: black;
+    background-color:gray;
+    color: black;
+    margin-top: 1vw;
+}
+
+::placeholder{
+    color:rgb(0, 0, 0);
+    font-family: arial;
+}
+
+.for a:hover{
+    background-color:rgba(216, 203, 195, 0.849) ;
+    padding: 2vw;
+    size-adjust: 2vw;
+    transition-duration: 1s;
+    cursor: help;
+}
+
+.social a:hover{
+    background-color:rgba(216, 203, 195, 0.849) ;
+    padding: 2vw;
+    
+    transition-duration: 1s;
+    cursor: help;
+
+}
